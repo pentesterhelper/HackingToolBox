@@ -57,7 +57,7 @@ Performs concurrent Nmap scans on domains/subdomains from a wordlist, with custo
 * **Usage**:
 
   ```bash
-  node index.js -w domains.txt -nmp "-p- -T4" -o result.txt
+  node nmap -w domains.txt -nmp "-p- -T4" -o result.txt
   ```
 
 
