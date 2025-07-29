@@ -3,17 +3,21 @@
 A modular and powerful toolkit for bug bounty hunters and pentesters. This CLI suite provides fast and customizable tools for subdomain enumeration and Nmap scanning. Built with simplicity and performance in mind.
 
 ---
-
+  ```bash
+  node index.js
+  ```
 ## 📦 Tools Included
 
 ### 🔍 Tool 1: Fuzzing Subdomain
+
 Brute-forces subdomains using a custom wordlist with high concurrency and DNS resolution.
 
-- **Description**: Performs subdomain brute-force using a wordlist.
-- **Usage**:
+* **Description**: Performs subdomain brute-force using a wordlist.
+* **Usage**:
+
   ```bash
   node fuzzSub example.com wordlist.txt
-````
+  ```
 
 ---
 
@@ -40,17 +44,6 @@ Performs concurrent Nmap scans on domains/subdomains from a wordlist, with custo
   ```bash
   node index.js -w domains.txt -nmp "-p- -T4" -o result.txt
   ```
-
----
-
-## 📁 Output Example (Nmap Scanner)
-
-All scan results are automatically saved in the `nmap/` folder:
-
-* `result.txt` – raw Nmap results
-* `result.html` – clean HTML report
-* `success.txt` – scanned domains with no errors
-* `failed.txt` – domains that failed scanning
 
 ---
 
@@ -95,5 +88,3 @@ Use any of the tools based on your reconnaissance needs.
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-
