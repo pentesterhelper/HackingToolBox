@@ -3,9 +3,24 @@
 A modular and powerful toolkit for bug bounty hunters and pentesters. This CLI suite provides fast and customizable tools for subdomain enumeration and Nmap scanning. Built with simplicity and performance in mind.
 
 ---
-  ```bash
-  node index.js
-  ```
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/HackingToolBox/HackingToolsBox.git
+cd HackingToolsBox
+```
+
+### 2. run
+
+```bash
+node index.js
+```
+---
+
+
 ## 📦 Tools Included
 
 ### 🔍 Tool 1: Fuzzing Subdomain
@@ -45,28 +60,7 @@ Performs concurrent Nmap scans on domains/subdomains from a wordlist, with custo
   node index.js -w domains.txt -nmp "-p- -T4" -o result.txt
   ```
 
----
 
-## 🚀 Getting Started
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/HackingToolBox/HackingToolsBox.git
-cd HackingToolsBox
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Run Any Tool
-
-Use any of the tools based on your reconnaissance needs.
-
----
 
 ## 🧠 Features
 
@@ -82,9 +76,3 @@ Use any of the tools based on your reconnaissance needs.
 
 * **Website**: [https://pentesterhelper.in](https://pentesterhelper.in)
 * **GitHub**: [https://github.com/HackingToolBox](https://github.com/HackingToolBox)
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
