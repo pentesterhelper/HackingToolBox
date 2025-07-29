@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "minimist": "^1.2.8",
+    "ora": "^8.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}
