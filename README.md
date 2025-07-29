@@ -9,7 +9,7 @@ A modular and powerful toolkit for bug bounty hunters and pentesters. This CLI s
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/HackingToolBox/HackingToolsBox.git
+git clone [https://github.com/HackingToolBox/HackingToolsBox.git](https://github.com/pentesterhelper/HackingToolBox.git)
 cd HackingToolsBox
 ```
 
